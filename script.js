@@ -3,8 +3,8 @@ getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 
 const getSum = () => {
-//Add your code here
-	const priceElements = document.querySelectorAll('.prices');
+    // Select all elements with the class 'prices'
+    const priceElements = document.querySelectorAll('.prices');
     
     // Initialize total price to 0
     let totalPrice = 0;
@@ -39,7 +39,6 @@ const getSum = () => {
     const table = document.getElementById('grocery-table');
     table.appendChild(totalRow);
 };
-
 
 getSumBtn.addEventListener("click", getSum);
 
